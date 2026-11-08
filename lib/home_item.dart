@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class HomeItem {
-  final String title;
+  final String name;
   final IconData icon;
 
-  const HomeItem({required this.title, required this.icon});
+  const HomeItem({required this.name, required this.icon});
 }
